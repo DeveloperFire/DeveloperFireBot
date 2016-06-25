@@ -25,7 +25,7 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "Ciao $firstname, benvenuto!";
 }
-elseif($text=="/sito")
+elseif($text=="sito")
 {
 	$response = "developerfire.ml";
 }
